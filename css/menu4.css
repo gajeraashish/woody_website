@@ -1,0 +1,212 @@
+*{
+   box-sizing:border-box;
+   padding:0;
+   margin:0;
+}
+body{
+      font-family:Cambria;
+}
+.bg_color{
+           background-color:#111111;
+           padding:15px 0;
+}
+ul{
+       list-style:none;
+}
+a{
+     text-decoration:none;
+     color:black;
+}
+.container{
+            margin:0 100px;
+}
+.top_heder{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            color:whitesmoke;
+}
+.Edulearn{
+           display:flex;
+           gap:10px;
+}
+.icon{
+       display:flex;
+       gap:20px;
+       margin-right:-1000px;
+}
+.Edulearn i{
+             color:#FF313B;
+             gap:10px;
+}
+.a1{
+       color:#FF313B;
+}
+
+.heder{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        font-size:25px;
+        margin:25px auto;
+}
+
+.img{
+     width:200px;
+} 
+
+.email i{
+          color: #FF313B;
+          gap:20px;
+          margin-right:10px;
+          display:inline;
+}
+.contact i{
+         color: #FF313B;
+         gap:20px;
+}
+
+nav{
+       background-color:#212121;
+       border-bottom:1px solid black;
+}
+.a2{
+       display:flex;
+       justify-content:space-between;
+       align-items:center;
+       margin-left:240px;
+}
+.main_menu{
+             display:flex;
+}
+.main_menu li a{
+                 color:darkgray;
+                 font-size:20px;
+                 text-transform:capitalize;
+                 font-weight:600;
+                 padding:30px 20px;
+                 display:block;
+}
+.main_menu li:hover > a{
+                         color: #FF313B;
+}
+.main_menu li{
+               position: relative;
+}
+
+.sub_menu{
+           position:absolute;
+           top:100%;
+           left:0;
+           width:200px;
+           background-color: rgba(0,0,0,0.5);
+           box-shadow:0 0 5px rgba(0,0,0,0.6);
+           display:none;
+}
+.sub_menu li a,
+.peta_menu li a{
+              padding:10px 20px; 
+}
+.main_menu li:hover .sub_menu,
+.sub_menu li:hover .peta_menu{
+                                 display:block;
+}
+
+.peta_menu{
+            position:absolute;
+            top:0;
+            left:100%;
+            width:250px;
+            background-color: rgba(0,0,0,0.5);
+            box-shadow:0 0 5px rgba(0,0,0,0.6);
+            display:none;             
+}
+
+.bat{
+      display:flex;
+      margin-right:200px;
+      font-size:20px;
+      color:darkgray;
+}
+.b1{
+     background-color:#FF3115;
+     padding:30px 25px;
+}
+.b2{
+     background-color:#E41F05;
+     padding:30px 25px;
+     position: relative;
+}
+
+
+.logo1{
+       position:absolute;
+       top:100%;
+       left:0;
+       width:350px;
+       background-color: rgba(0,0,0,0.5);
+       box-shadow:0 0 5px rgba(0,0,0,0.6);
+       display:none;
+       padding:20px 0;           
+}
+.logo1{
+        padding:10px 20px;
+}
+.b2:hover .logo1{
+                  display:block;
+}
+
+.c1 li a{
+          color:#FFF;
+          padding:15px 30px;
+          display:block;
+          text-transform:capitalize;
+}
+.c1 li:hover > a{
+                  color:#FF3115;
+}
+.c1 li{
+        position:relative;
+}
+
+.c2,.c3{
+     position:absolute;
+     top:0;
+     right:100%;
+     background-color: rgba(0,0,0,0.5);
+     width:200px;
+     display:none;
+}
+.c2 li a,
+.c3 li a{
+        padding:10px 20px;
+}
+.c1 li:hover .c2,
+.c2 li:hover .c3{
+                   display:block;
+}
+
+.c4{
+       color:#FFF;
+       padding:15px 30px;
+       display:block;
+       text-transform:capitalize;
+}
+.c5{
+       display:block;
+       text-transform:capitalize;
+       background-color:#FFF; 
+       padding:8px 15px;
+       width:200px;
+       border-radius:20px;
+}
+
+
+
+
+
+
+
+
+
+
